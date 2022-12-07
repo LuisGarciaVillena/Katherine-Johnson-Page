@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+}
+
+h1{font-size: 4.5em;}
+h2{font-size: 3em;}
+h3{font-size: 1.8em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{color: rgb(109, 56, 18);}
+
+header{
+    background-color: rgb(250, 244, 237);
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(172, 92, 34);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgba(180, 130, 38, 0.705);
+}
+
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: url("images/fondo-colorido-de-las-nubes-para-tu-trabajo-diseño-web-pantalla-cloud-perfecto-su-187443648.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hero h1{
+    color: rgb(0, 0, 0);
+}
+
+#introduccion .container{
+    text-align: center;
+    font-weight: 800;
+    padding: 200px 12px;
+}
+
+#introduccion h2{
+    font-size: 3.2em;
+    color: rgb(109, 56, 18)
+}
+
+#introduccion .container{
+    background-image: url("images/circulo_cientifica.png");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+#historia{
+    background-color: #eed9bd;
+    text-align: center;
+    color: black;
+    font-weight: 600;
+}
+
+#historia .container{
+    padding: 150px 12px;
+}
+
+#historia h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    color: rgb(109, 56, 18)
+}
+
+#historia .carta{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.carta:first-child{
+    background-image: url("images/geometria-e1551991013554.jpg");
+}
+
+.carta:nth-child(2){
+    background-image: url("images/la-nasa-vuelve-a-cancelar-el-lanzamiento-de-la-mision-artemis-i-por-una-fuga-de-combustible.jpeg");
+}
+
+.carta:nth-child(3){
+    background-image: url("images/1366_2000.jpg");
+}
+
+#curiosidades .container{
+    text-align: center;
+    padding: 250px 12px;
+}
+
+#curiosidades h2{
+    margin-top: 0;
+    font-size: 3.2em;
+    color: rgb(109, 56, 18)
+}
+
+#curiosidadeas li{
+     margin: 16px 0px;
+     font-weight: bold;
+}
+
+#video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 60vh;
+    background-color: rgb(189, 159, 82);
+}
+
+footer{
+    background-color: rgb(255, 255, 255);
+    height: 150px;
+    text-align: center;
+}
